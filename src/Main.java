@@ -21,23 +21,20 @@ public class Main {
 
         pasajero1.mostrarDatosCliente();
 
-        // Josue Guerra
+        // Josué Guerra
         cliente pasajero2 = new cliente();
         ruta r2 = new ruta(pasajero2);
         ticket t2 = new ticket(pasajero2);
         Servicios s2 = new Servicios(pasajero2);
 
         pasajero2.setNombre("Josue Guerra");
-
         r2.seleccionDeRuta();
         t2.seleccionCategoria();
         t2.precioTicket();
         s2.selecciondeServicio();
-
         pasajero2.mostrarDatosCliente();
 
         // Carlos Perez
-
         cliente pasajero3 = new cliente();
         ruta r3 = new ruta(pasajero3);
         ticket t3 = new ticket(pasajero3);
