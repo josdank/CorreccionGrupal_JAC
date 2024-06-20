@@ -1,5 +1,3 @@
-import java.sql.ClientInfoStatus;
-import java.util.Scanner;
 import BusesBuho.cliente;
 import BusesBuho.ruta;
 import BusesBuho.ticket;
